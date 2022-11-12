@@ -1,0 +1,38 @@
+GET http://localhost:3000/api/members
+
+
+###
+POST http://localhost:3000/api/members
+Content-Type: application/json
+
+{
+    "id": 1,
+    "name": "helllchael2",
+    "team": "sales1",
+    "position": "Sales Staff",
+    "emailAddress": "michael121@google.com",
+    "phoneNumber": "010-xxxx-2222",
+    "admissionDate": "2019/11/13/",
+    "birthday": "1992/09/22",
+    "profileImage": "profile10.png"
+  }
+
+
+###
+PUT http://localhost:3000/api/members
+Content-Type: application/json
+
+  {
+    "id": 4, 
+    "name": "Ericsssss",
+    "team": "engineering",
+    "position": "Web Frontend Developer",
+    "emailAddress": "eric@google.com",
+    "phoneNumber": "010-xxxx-xxxx",
+    "admissionDate": "2020/04/07",
+    "birthday": "1995/04/10",
+    "profileImage": "profile4.png"
+  }
+
+###
+DELETE http://localhost:3000/api/members/
